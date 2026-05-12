@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+onnx
+onnxruntime
+mediapipe == 0.10.21
+opencv-python == 4.5.3.20210914
+numpy == 2.2.6
