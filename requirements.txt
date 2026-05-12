@@ -4,5 +4,5 @@ torchaudio
 onnx
 onnxruntime
 mediapipe == 0.10.21
-opencv-python == 4.5.3.20210914
+opencv-python == 4.8.1.78
 numpy == 2.2.6
