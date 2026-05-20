@@ -3,11 +3,15 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import TensorDataset, DataLoader
 import numpy as np
-from models_zoo import build_model
-from export_sdk_model import export_v8_to_onnx  # The exporter script we made first
+from .export_sdk_model import export_v8_to_onnx  # The exporter script we made first
+from .models_zoo import build_model
 
 class SensifootPersonalizer:
-    def __init__(self, base_model_path='./best_model_TCN_PHASE1.pth', device='cpu'):
+    def __init__(
+    self,
+    base_model_path='sensifoot_sdk/best_model_TCN_PHASE1.pth',
+    device='cpu'
+	):
         """Loads the base TCN model and prepares it for flash training."""
         self.device = torch.device(device)
         self.model = build_model(arch='TCN', input_dim=40, hidden_dim=32, num_classes=8).to(self.device)

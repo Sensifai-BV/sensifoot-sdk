@@ -2,7 +2,7 @@ import torch
 import onnx
 import onnxruntime as ort
 import numpy as np
-from models_zoo import build_model # Pulls your architecture
+from .models_zoo import build_model # Pulls your architecture
 
 def export_v8_to_onnx(model_path, output_path, window_size=60, input_dim=40):
     print(f"🔄 Loading PyTorch model from {model_path}...")
