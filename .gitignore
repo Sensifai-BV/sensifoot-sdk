@@ -1,2 +1,4 @@
 *.onnx
 *.pth
+__pycache__/
+*.pyc
