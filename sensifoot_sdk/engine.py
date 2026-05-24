@@ -80,17 +80,24 @@ class SensifootEngine:
             # --- 4. Neural Inference (ONNX) ---
             logits = self.session.run(None, {self.input_name: ort_input})[0]
             
-            # Apply Softmax manually (since PyTorch CrossEntropyLoss expects raw logits)
+            # Apply Softmax manually
             exp_preds = np.exp(logits[0] - np.max(logits[0]))
             probs = exp_preds / np.sum(exp_preds)
             
-            pred_idx = np.argmax(probs)
+            # Identify Top 1 and Top 2 classes to calculate margin
+            sorted_indices = np.argsort(probs)[::-1]
+            pred_idx = sorted_indices[0]
+            second_idx = sorted_indices[1]
+            
             confidence = probs[pred_idx] * 100
+            margin = (probs[pred_idx] - probs[second_idx]) * 100
             
             t_end = time.perf_counter()
             process_ms = (t_end - t_start) * 1000
 
-            if confidence > 70.0:
+            # 🚨 STRICT SEMANTIC GATES 🚨
+            # Require high confidence AND a high margin to reject ambiguous distractor motions
+            if confidence > 88.0 and margin > 30.0:
                 return {
                     "gesture_id": int(pred_idx + 1),
                     "confidence": confidence,
