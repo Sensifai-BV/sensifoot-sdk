@@ -1,4 +1,6 @@
 *.onnx
 *.pth
 __pycache__/
+sensifoot_sdk/__pycache__/*
 *.pyc
+experiments/
