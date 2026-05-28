@@ -1,6 +1,10 @@
 *.onnx
+*.data
 *.pth
 __pycache__/
 sensifoot_sdk/__pycache__/*
 *.pyc
-experiments/
+experiments/log*
+experiments/long-shot1-original.mp4
+experiments/cropped*
+experiments/sensifoot_sdk*
