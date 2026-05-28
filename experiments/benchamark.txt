@@ -1,0 +1,51 @@
+Benchamark - Original:
+==================================================
+📊 ESWA EVALUATION RESULTS
+==================================================
+Total Ground Truth Events: 32
+True Positives: 26
+False Negatives (Missed): 6
+False Positives (FA): 9
+--------------------------------------------------
+Event-F1 Score:  0.776
+Precision:       0.743
+Recall:          0.812
+--------------------------------------------------
+False Activations/Hour: 59.43
+Missed/Hour:            39.62
+--------------------------------------------------
+Avg ONNX Latency:       0.82 ms
+Neural Invocations/min: 42.48
+==================================================
+
+
+
+
+Benchmark - Phase1:
+📊 ESWA EVALUATION RESULTS
+==================================================
+Total Ground Truth Events: 32
+True Positives: 26
+False Negatives (Missed): 6
+False Positives (FA): 89
+--------------------------------------------------
+Event-F1 Score:  0.354
+Precision:       0.226
+Recall:          0.812
+--------------------------------------------------
+False Activations/Hour: 587.71
+Missed/Hour:            39.62
+--------------------------------------------------
+Avg ONNX Latency:       0.91 ms
+Neural Invocations/min: 129.54
+==================================================
+
+
+Benchmark - Phase2:
+(ml_parsa) parsa@parsa:~/Repos/foot_train/attempt014-sdk/experiments$ /home/parsa/miniconda3/envs/mp_test/bin/python /home/parsa/Repos/foot_train/attempt014-sdk/experiments/profile_latency.py
+🚀 Profiling PyTorch vs ONNX Latency...
+----------------------------------------
+PyTorch Latency: 2.074 ms / call
+ONNX Latency:    0.129 ms / call
+----------------------------------------
+

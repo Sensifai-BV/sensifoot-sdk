@@ -1,0 +1,230 @@
+{
+    "sequence_id": "long-shot1",
+    "total_frames": 16355,
+    "events": [
+        {
+            "class_id": 4,
+            "approx_time": "00:25-s to 00:29-s",
+            "start_frame": 743,
+            "end_frame": 900,
+            "duration_frames": 157
+        },
+        {
+            "class_id": 4,
+            "approx_time": "00:29-s to 00:35-s",
+            "start_frame": 840,
+            "end_frame": 1080,
+            "duration_frames": 240
+        },
+        {
+            "class_id": 3,
+            "approx_time": "00:44-s to 00:46-s",
+            "start_frame": 1300,
+            "end_frame": 1409,
+            "duration_frames": 109
+        },
+        {
+            "class_id": 6,
+            "approx_time": "00:53-s to 00:55-s",
+            "start_frame": 1560,
+            "end_frame": 1664,
+            "duration_frames": 104
+        },
+        {
+            "class_id": 6,
+            "approx_time": "01:02-s to 01:07-s",
+            "start_frame": 1851,
+            "end_frame": 2038,
+            "duration_frames": 187
+        },
+        {
+            "class_id": 4,
+            "approx_time": "01:15-s to 01:17-s ",
+            "start_frame": 2255,
+            "end_frame": 2334,
+            "duration_frames": 79
+        },
+        {
+            "class_id": 3,
+            "approx_time": "01:23-s to 01:26-s",
+            "start_frame": 2527,
+            "end_frame": 2610,
+            "duration_frames": 83
+        },
+        {
+            "class_id": 6,
+            "approx_time": "01:36-s to 01:41-s",
+            "start_frame": 2894,
+            "end_frame": 3053,
+            "duration_frames": 159
+        },
+        {
+            "class_id": 4,
+            "approx_time": "01:47-s to 01:48-s",
+            "start_frame": 3207,
+            "end_frame": 3262,
+            "duration_frames": 55
+        },
+        {
+            "class_id": 3,
+            "approx_time": "02:02-s to 02:04-s",
+            "start_frame": 3648,
+            "end_frame": 3736,
+            "duration_frames": 88
+        },
+        {
+            "class_id": 4,
+            "approx_time": "02:34-s to 02:36-s",
+            "start_frame": 4590,
+            "end_frame": 4710,
+            "duration_frames": 120
+        },
+        {
+            "class_id": 3,
+            "approx_time": "02:51-s to 02:53-s",
+            "start_frame": 5128,
+            "end_frame": 5216,
+            "duration_frames": 88
+        },
+        {
+            "class_id": 6,
+            "approx_time": "03:04-s to 03:07-s",
+            "start_frame": 5523,
+            "end_frame": 5640,
+            "duration_frames": 117
+        },
+        {
+            "class_id": 4,
+            "approx_time": "04:01-s to 04:03-s",
+            "start_frame": 7239,
+            "end_frame": 7318,
+            "duration_frames": 79
+        },
+        {
+            "class_id": 3,
+            "approx_time": "04:17-s to 04:19-s",
+            "start_frame": 7681,
+            "end_frame": 7791,
+            "duration_frames": 110
+        },
+        {
+            "class_id": 4,
+            "approx_time": "04:44-s to 04:45-s",
+            "start_frame": 8527,
+            "end_frame": 8577,
+            "duration_frames": 50
+        },
+        {
+            "class_id": 6,
+            "approx_time": "04:53-s to 04:57-s",
+            "start_frame": 8805,
+            "end_frame": 8940,
+            "duration_frames": 135
+        },
+        {
+            "class_id": 5,
+            "approx_time": "06:13-s to 06:16-s",
+            "start_frame": 11160,
+            "end_frame": 11309,
+            "duration_frames": 149
+        },
+        {
+            "class_id": 8,
+            "approx_time": "06:35-s to 06:38-s",
+            "start_frame": 11822,
+            "end_frame": 11969,
+            "duration_frames": 147
+        },
+        {
+            "class_id": 2,
+            "approx_time": "06:54-s to 06:57-s",
+            "start_frame": 12391,
+            "end_frame": 12540,
+            "duration_frames": 149
+        },
+        {
+            "class_id": 2,
+            "approx_time": "07:01-s to 07:03-s",
+            "start_frame": 12601,
+            "end_frame": 12707,
+            "duration_frames": 106
+        },
+        {
+            "class_id": 1,
+            "approx_time": "07:10-s to 07:11-s",
+            "start_frame": 12882,
+            "end_frame": 12942,
+            "duration_frames": 78
+        },
+        {
+            "class_id": 1,
+            "approx_time": "07:12-s to 07:13-s",
+            "start_frame": 12943,
+            "end_frame": 13015,
+            "duration_frames": 72
+        },
+        {
+            "class_id": 5,
+            "approx_time": "07:23-s to 07:26-s",
+            "start_frame": 13263,
+            "end_frame": 13410,
+            "duration_frames": 147
+        },
+        {
+            "class_id": 8,
+            "approx_time": "07:37-s to 07:39-s",
+            "start_frame": 13680,
+            "end_frame": 13795,
+            "duration_frames": 115
+        },
+        {
+            "class_id": 1,
+            "approx_time": "07:44-s to 07:45-s",
+            "start_frame": 13897,
+            "end_frame": 13966,
+            "duration_frames": 69
+        },
+        {
+            "class_id": 8,
+            "approx_time": "07:55-s to 07:57-s",
+            "start_frame": 14235,
+            "end_frame": 14339,
+            "duration_frames": 104
+        },
+        {
+            "class_id": 2,
+            "approx_time": "08:10-s to 08:13-s",
+            "start_frame": 14672,
+            "end_frame": 14818,
+            "duration_frames": 146
+        },
+        {
+            "class_id": 2,
+            "approx_time": "08:15-s to 08:17-s",
+            "start_frame": 14827,
+            "end_frame": 14940,
+            "duration_frames": 113
+        },
+        {
+            "class_id": 3,
+            "approx_time": "08:35-s to 08:37-s",
+            "start_frame": 15429,
+            "end_frame": 15540,
+            "duration_frames": 111
+        },
+        {
+            "class_id": 1,
+            "approx_time": "08:43-s to 08:45-s",
+            "start_frame": 15670,
+            "end_frame": 15766,
+            "duration_frames": 96
+        },
+        {
+            "class_id": 5,
+            "approx_time": "08:48-s to 08:52-s",
+            "start_frame": 15832,
+            "end_frame": 15987,
+            "duration_frames": 155
+        }
+    ]
+}
