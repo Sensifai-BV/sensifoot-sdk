@@ -7,4 +7,4 @@ sensifoot_sdk/__pycache__/*
 experiments/log*
 experiments/long-shot1-original.mp4
 experiments/cropped*
-experiments/sensifoot_sdk*
+experiments/sensifoot_sdk*experiments/long-shot1-blur.mp4
