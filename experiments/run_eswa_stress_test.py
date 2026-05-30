@@ -13,7 +13,7 @@ from sensifoot_sdk.tracker import SensifootTracker
 from sensifoot_sdk.engine import SensifootEngine
 
 # --- Configuration ---
-VIDEO_PATH = "long-shot1-blur.mp4"                  # Is the blurred video
+VIDEO_PATH = "long-shot1-blur-compressed.mp4"                  # Is the blurred video
 JSON_PATH = "long-shot1_ground_truth.json"
 MODEL_PATH = "sensifoot_v8.onnx"
 FEATURES_CACHE_PATH = "clean_features_cache.npy" # The secret to reproducible metrics!
