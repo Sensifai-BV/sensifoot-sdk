@@ -1,6 +1,6 @@
-# SensiFoot V8 Edge SDK
+# SensiFoot Edge SDK
 
-SensiFoot V8 is an industrial, edge-optimized software development kit (SDK) for real-time human lower-limb gesture recognition. 
+SensiFoot Edge is an industrial, edge-optimized software development kit (SDK) for real-time human lower-limb gesture recognition. 
 
 Designed to process monocular RGB video feeds, this pipeline leverages MediaPipe Pose, Adaptive Ordinal Distance (A-OD) biomechanical gates, and a highly optimized single LSTM network with a temporal attention layer. The SDK features a hybrid architecture: it performs on-device personalization using PyTorch (flash training in RAM), automatically compiles the personalized weights to ONNX format, and executes live inference via ONNX Runtime for near-zero latency on edge hardware.
 
