@@ -33,8 +33,10 @@ while cap.isOpened():
                   f"Latency: {result['latency_ms']:.2f} ms")
             
             # Put visual feedback on the screen
-            cv2.putText(output_frame, f"G{result['gesture_id']} ({result['confidence']:.0f}%)", 
-                        (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
+            if result['confidence'] >= 98.0:
+                # Put visual feedback on the screen
+                cv2.putText(output_frame, f"G{result['gesture_id']} ({result['confidence']:.0f}%)", 
+                            (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
 
     cv2.imshow("SensiFoot Production App", output_frame)
     if cv2.waitKey(1) & 0xFF == ord('q'): break
